@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="h1">Where in the world?</div>
+      <div><button class="toggle" id="modeToggle" onclick="toggleDarkMode()">Dark Mode</button></div>
+    </nav>
+  </header>
+
+  <section class="section">
+    <input type="text" placeholder="Search for a country…" class="input" id="searchInput" />
+    <select id="regionFilter" class="input">
+  <option value="all">Все материки</option>
+  <option value="Africa">Африка</option>
+  <option value="Americas">Америка</option>
+  <option value="Asia">Азия</option>
+  <option value="Europe">Европа</option>
+  <option value="Oceania">Океания</option>
+</select>
+
+  </section>
+
+  <div class="kartochki" id="cardsContainer"></div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html> 
+
+
